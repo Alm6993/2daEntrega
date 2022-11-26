@@ -319,6 +319,8 @@ img {
 
 /*MEDIA QUERIES RESPONSIVE*/
 
+/*NAV*/
+
 @media (max-width: 768px) {
   .nav__list {
     display: flex;
