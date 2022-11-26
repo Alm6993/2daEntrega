@@ -313,6 +313,21 @@ img {
   padding: 1rem 0 0 0;
 }
 
+.contBoton {
+  background-color: rgb(232, 69, 37);
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border: solid 3px rgb(28, 26, 55);
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.contBoton:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
 .Menu {
   height: 100vh;
 }
@@ -327,6 +342,8 @@ img {
     flex-direction: column;
   }
 
+  /*CONTACTOS*/
+
   .mediaq {
     display: flex;
     flex-direction: column;
@@ -337,5 +354,14 @@ img {
     display: flex;
     flex-direction: column-reverse;
     height: 100vh;
+  }
+
+  /*PAGINA PRINCIPAL*/
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20rem 0 20rem 0;
   }
 }
