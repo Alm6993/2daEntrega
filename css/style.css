@@ -355,7 +355,7 @@ img {
 
 .animate__tada {
   animation-duration: 2s;
-  animation-play-state: 2s;
+  animation-iteration-count: infinite;
 }
 
 .Menu {
