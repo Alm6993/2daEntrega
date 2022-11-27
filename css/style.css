@@ -318,14 +318,44 @@ img {
   color: white;
   font-size: 2rem;
   padding: 1rem;
-  border: solid 3px rgb(28, 26, 55);
   width: 100%;
   margin-top: 2rem;
 }
 
+.texA {
+  background: none;
+  border: solid 0.3rem rgb(232, 69, 37);
+  padding-bottom: 1rem;
+}
+
+/*TRANSICION*/
+
 .contBoton:hover {
   opacity: 0.5;
   transition: 0.5s;
+}
+
+/*ANIMACION*/
+
+.animate__backInDown {
+  animation-duration: 1s;
+}
+
+.animate__zoomInDown {
+  animation-duration: 2s;
+}
+
+.animate__lightSpeedInLeft {
+  animation-duration: 1.5s;
+}
+
+.animate__lightSpeedInRight {
+  animation-duration: 1.5s;
+}
+
+.animate__tada {
+  animation-duration: 2s;
+  animation-play-state: 2s;
 }
 
 .Menu {
