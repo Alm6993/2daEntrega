@@ -23,20 +23,21 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
-}
-.nav__list .nav__items {
-  margin: 4rem 0 0 1rem;
-  padding-right: 3rem;
-}
-.nav__list .nav__items .nav__link {
-  color: rgb(28, 26, 55);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-.nav__list .nav__items .nav__link:hover {
-  opacity: 0.5;
-}
 
-/*# sourceMappingURL=style.css.map */
+  .nav__items {
+    margin: 4rem 0 0 1rem;
+    padding-right: 3rem;
+
+    .nav__link {
+      color: rgb(28, 26, 55);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5rem;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
