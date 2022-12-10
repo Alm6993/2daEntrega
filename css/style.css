@@ -5,19 +5,15 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62, 5%;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: rgb(214, 221, 225);
+.body {
+  font-family: "Monteserrat", sans-serif;
 }
 
-header {
-  background-color: rgb(241, 136, 67);
-  position: sticky;
-  top: 0;
-  border-bottom: 5px solid rgb(28, 26, 55);
+img {
+  max-width: 100%;
 }
 
 .nav__list {
@@ -29,14 +25,341 @@ header {
   padding-right: 3rem;
 }
 .nav__list .nav__items .nav__link {
-  color: rgb(28, 26, 55);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.5;
 }
 .nav__list .nav__items .nav__link:hover {
   opacity: 0.5;
+}
+
+.body {
+  background-color: #d6dde1;
+  position: relative;
+  padding-bottom: 4rem;
+  height: 100vh;
+}
+
+.header {
+  background-color: #e84525;
+  position: sticky;
+  top: 0;
+  border-bottom: 5px #1c1a37;
+}
+
+.containerPrincipal {
+  text-align: center;
+}
+
+.principal {
+  padding: 4rem;
+}
+
+.tituloPrincipal {
+  font-size: 3.5rem;
+  color: #1c1a37;
+}
+
+.parrafoPrincipal {
+  font-size: 2.5rem;
+  color: #1c1a37;
+}
+
+.titulo {
+  color: #1c1a37;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.parrafoTitulo {
+  color: #1c1a37;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.fotoSecundarias {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.col {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.footer {
+  background-color: #e84525;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1c1a37;
+}
+
+.proyectoContainer {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.cardProyectos {
+  border: 2px solid #e84525;
+  padding: 1rem;
+}
+
+.proyecto__titulos {
+  text-align: center;
+  font-size: 2rem;
+  color: #e84525;
+  padding: 3rem;
+}
+
+.proyeto__titulos2 {
+  text-align: right;
+  color: #f18843;
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.info__proyectos {
+  font-family: "nunito", sans-serif;
+  font-weight: 700;
+  list-style: none;
+  text-align: right;
+  font-size: 1rem;
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+
+.info__proyectosLista {
+  font-family: "nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+
+.proyecto__parrafos {
+  font-family: "nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 1.5rem;
+  color: #1c1a37;
+  line-height: 1.8;
+  max-width: 1000px;
+}
+
+.botonProyecto {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-size: 700;
+  padding: 1rem;
+  color: #f18843;
+  text-decoration: none;
+  text-align: right;
+}
+
+.cardServicios {
+  margin: 8rem;
+  padding: 1rem;
+  text-align: center;
+  max-width: 80%;
+}
+
+.serUno,
+.serDos {
+  background-color: #f18843;
+  text-align: center;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.servicio__titulo {
+  font-size: 2.5rem;
+}
+
+.servicio__parrafo {
+  padding: 1rem;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.secundario {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.lista__uno {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 7rem;
+}
+
+.containerNosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1c1a37;
+  color: #f18843;
+}
+
+.SecNosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colNosotros {
+  width: 100%;
+}
+
+.tituloNosotros {
+  padding: 5rem;
+  font-size: 3.5rem;
+}
+
+.nosotrosOficinaas {
+  padding: 5rem;
+}
+
+.parrafoNosotros {
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+.Ndos {
+  font-size: 3rem;
+}
+
+.listaNosotros {
+  font-size: 2rem;
+  padding: 3rem;
+  line-height: 1.8rem;
+}
+
+.containerContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20rem 0 0 0;
+  padding: 2rem 1rem 1rem 1rem;
+  height: 100vh;
+}
+
+.contColum {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contTitulo {
+  font-size: 3rem;
+  padding: 10rem 0rem 11.5rem 0;
+  color: #e84525;
+}
+
+.contTitulo2 {
+  font-size: 2rem;
+  padding: 2rem 0 3rem 0;
+  max-width: 50rem;
+}
+
+.contFormulario {
+  font-size: 2rem;
+}
+
+.conFormato {
+  padding: 1rem 0 0 0;
+}
+
+.contBoton {
+  background-color: #f18843;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+}
+.contBoton:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.texA {
+  background: none;
+  border: solid 0.2rem #f18843;
+  padding-bottom: 1rem;
+}
+
+.animate__backInDown {
+  animation-duration: 1s;
+}
+
+.animate__zoomInDown {
+  animation-duration: 2s;
+}
+
+.animate__lightSpeedInRight {
+  animation-duration: 1.5s;
+}
+
+.animate__lightSpeedInLeft {
+  animation-duration: 1.5s;
+}
+
+.animate__tada {
+  animation-duration: 2s;
+  animation-play-state: 2s;
+  animation-iteration-count: infinite;
+}
+
+.menu {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .mediaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerContacto {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20rem 0 20rem 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
