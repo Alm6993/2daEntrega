@@ -220,7 +220,7 @@
   font-size: 3rem;
 }
 
-.listaNosotros {
+.listaNostros {
   font-size: 2rem;
   padding: 3rem;
   line-height: 1.8rem;
@@ -326,10 +326,54 @@
     height: 100vh;
   }
 
+  .LogoContac {
+    margin-top: 30rem;
+  }
+
   .Menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 20rem 0 20rem 0;
+  }
+
+  .proyeto__titulos2 {
+    font-size: 1.4rem;
+  }
+
+  .info__proyectosLista {
+    font-size: 1.2rem;
+  }
+
+  .proyecto__parrafos {
+    font-size: 1rem;
+  }
+
+  .botonProyecto {
+    font-size: 1.5rem;
+  }
+
+  .tituloNosotros,
+  .tituloNosotros {
+    font-size: 1.4rem;
+  }
+
+  .parrafoNosotros,
+  .listaNostros {
+    font-size: 1rem;
+  }
+
+  .servicio__titulo,
+  .secundario {
+    font-size: 1.4rem;
+  }
+
+  .servicio__parrafo,
+  .lista__uno {
+    font-size: 1.2rem;
+  }
+
+  .cardServicios {
+    max-width: 100%;
   }
 }
