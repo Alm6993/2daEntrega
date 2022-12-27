@@ -253,12 +253,52 @@
   max-width: 50rem;
 }
 
-.contFormulario {
-  font-size: 2rem;
+.form {
+  background: rgba(241, 136, 67, 0.2);
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+
+  .form__input {
+    width: 95%;
+    height: 2rem;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-bottom: 0.2rem solid $color-1;
+    outline: none;
+
+    font-size: 1rem;
+    font-style: italic;
+
+    .form__label {
+      font-size: 1.5rem;
+    }
+  }
 }
 
-.conFormato {
-  padding: 1rem 0 0 0;
+.contTitulo {
+  text-align: center;
+}
+
+.contTitulo2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Monteserrat", sans-serif;
+}
+
+.form__text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  outline: none;
+  padding-top: 1rem;
+}
+
+.mark {
+  font-size: 1.5rem;
+
+  .opt {
+    font-style: italic;
+  }
 }
 
 .contBoton {

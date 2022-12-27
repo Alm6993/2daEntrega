@@ -64,41 +64,47 @@
     <section>
       <div class="containerContacto">
         <div class="contColum">
+          <form action="" class="form">
             <h1 class="contTitulo animate__tada">Contactanos</h1>
             <form class="contFormulario" action="">
-            <div class="conFormato"><label class="comPersonal" for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" /></div>
-            <div class="conFormato"><label class="comPersonal for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" /></div>
-            <div class="conFormato"><label class="comPersonal for="mail">Mail</label>
-            <input type="text" name="mail" id="mail" /></div>
-            <div class="conFormato"><label class="comPersonal for="celular">Celular</label>
-            <input class="comPersonal type="number" name="celular" id="celular" /></div>
+            <label for="name" class="form__label">Nombre:</label>
+            <input type="text" class="form__input" name="nombre" placeholder="    Nombre" id="name">
+
+            <label for="apellido" class="form__label">Apellido:</label>
+            <input type="text" class="form__input" name="apellido" placeholder="    Apellido" id="apellido">
+
+            <label for="mail" class="form__label">Correo Electronico:</label>
+            <input type="text" class="form__input" name="mail" placeholder="    Correo electronico" id="mail">
+
+            <label for="number" class="form__label">Celular:</label>
+            <input type="number" class="form__input" name="celular" placeholder="    Celular" id="number">
+          
+
             <!--Datos de Obra-->
             <h2 class="contTitulo2">
               Completa las opciones para un mejor asesoramiento en primera
               instancia.
             </h2>
-            <div class="contOpcion">Quiero modificar mi espacio</div>
-            <input type="radio" name="obra" value="modificar" />
-            <div class="contOpcion">Quiero mi espacio desde el inicio</div>
+            <div class="form__sel">Quiero modificar mi espacio</div>
+            <input class="form__sel" type="radio" name="obra" value="modificar" />
+            <div class="form__sel">Quiero mi espacio desde el inicio</div>
             <input type="radio" name="obra" value="construir" />
             <div>
-              <label class="conFormato for="Mensaje"></label>
-              <textarea class="texA" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+              <label for="Mensaje" class="form__label">Escriba su mensaje</label>
+              <textarea class="form__text" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="      Escriba su consulta"></textarea>
             </div>
             <!--Marketing-->
             <label class="conFormato mark for="marketing">Como llegaste a nosotros</label>
-            <select name="marketing">
+            <select class="opt" name="marketing">
               <option value="A">Recomendación</option>
-              <option value="A">Publididad</option>
-              <option value="A">Carteleria</option>
-              <option value="A">Redes sociales</option>
+              <option value="B">Publididad</option>
+              <option value="C">Carteleria</option>
+              <option value="D">Redes sociales</option>
             </select>
             <input class="contBoton" type="submit" value="Enviar" />
-            </form>
         </div>
-        <div class="contColum">
+        </form>
+      <div class="contColum">
           <div class="contLogo">
             <img src="../imgs/LogoE.png" alt="" class="LogoContac"></div>
         <div >
