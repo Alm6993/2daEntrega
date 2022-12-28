@@ -147,10 +147,16 @@
 }
 
 .cardServicios {
-  margin: 8rem;
+  margin: 1rem;
   padding: 1rem;
   text-align: center;
   max-width: 80%;
+}
+
+.secSer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .serUno,
@@ -184,6 +190,14 @@
   padding-left: 7rem;
 }
 
+.lista__uno__items {
+  margin: 0.5rem;
+}
+
+.nosotrosOficinas {
+  width: 90%;
+}
+
 .containerNosotros {
   display: flex;
   flex-wrap: wrap;
@@ -196,15 +210,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .colNosotros {
-  width: 100%;
-}
-
-.tituloNosotros {
-  padding: 5rem;
-  font-size: 3.5rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nosotrosOficinaas {
@@ -223,7 +236,7 @@
 .listaNostros {
   font-size: 2rem;
   padding: 3rem;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
 }
 
 .containerContacto {
@@ -235,10 +248,17 @@
   height: 100vh;
 }
 
+.tituloNosotros {
+  padding: 5rem;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
 .contColum {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 
 .contTitulo {
@@ -254,9 +274,12 @@
 }
 
 .form {
+  width: 75%;
   background: rgba(241, 136, 67, 0.2);
   font-family: "Montserrat", sans-serif;
   text-align: left;
+  margin: 1rem;
+  padding: 1.5rem;
 
   .form__input {
     width: 95%;
@@ -265,14 +288,24 @@
     border: none;
     border-bottom: 0.2rem solid $color-1;
     outline: none;
-
+    margin: 1rem 1rem 1rem 1rem;
     font-size: 1rem;
     font-style: italic;
-
-    .form__label {
-      font-size: 1.5rem;
-    }
   }
+}
+
+.secCont {
+  height: 110vh;
+}
+
+.map {
+  width: 30rem;
+  height: 30rem;
+}
+
+.form__label {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .contTitulo {
@@ -290,7 +323,7 @@
   background: rgba(0, 0, 0, 0.05);
   border: none;
   outline: none;
-  padding-top: 1rem;
+  margin: 1rem 0 1rem 0;
 }
 
 .mark {
@@ -357,13 +390,27 @@
   .mediaq {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
 
   .containerContacto {
     display: flex;
     flex-direction: column-reverse;
     height: 100vh;
+    justify-content: center;
+  }
+
+  .secCont {
+    height: 240vh;
+  }
+
+  .contLogo {
+    margin-top: 20rem;
+  }
+
+  .contColum {
+    display: flex;
+    align-items: center;
   }
 
   .LogoContac {
@@ -393,7 +440,6 @@
     font-size: 1.5rem;
   }
 
-  .tituloNosotros,
   .tituloNosotros {
     font-size: 1.4rem;
   }
